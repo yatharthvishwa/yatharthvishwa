@@ -16,7 +16,7 @@
 ## Tech Stack
 
 <!-- Edit the list: https://skillicons.dev (comma-separated ids) -->
-[![Tech](https://skillicons.dev/icons?i=c,cpp,kicad,fusion360,git,linux,bash)](https://skillicons.dev)
+[![Tech](https://skillicons.dev/icons?i=c,cpp,py,git,linux,bash)](https://skillicons.dev)
 ![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
 ![Fusion 360](https://img.shields.io/badge/Fusion_360-FF7300?style=for-the-badge&logo=autodesk&logoColor=white)
 
