@@ -16,7 +16,7 @@
 ## Tech Stack
 
 <!-- Edit the list: https://skillicons.dev (comma-separated ids) -->
-[![Tech](https://skillicons.dev/icons?i=c,c++,git,linux,bash)](https://skillicons.dev)
+[![Tech](https://skillicons.dev/icons?i=c,cpp,git,linux,bash)](https://skillicons.dev)
 
 ## Connect with me
 
@@ -27,4 +27,3 @@
 
 ---
 
-<sub>Terminal header drawn as a plain SVG: edit `assets/terminal.svg` to change the text.</sub>
