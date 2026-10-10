@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" role="img" aria-label="Terminal window introducing the profile owner">
+  <style>
+    text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 15px; white-space: pre; }
+    .prompt { fill: #9ece6a; }
+    .path   { fill: #7aa2f7; }
+    .cmd    { fill: #c0caf5; }
+    .key    { fill: #bb9af7; }
+    .val    { fill: #e0af68; }
+    .dim    { fill: #565f89; }
+    .out    { fill: #a9b1d6; }
+    .type   { animation: type var(--d) steps(40, end) var(--t) both; }
+    .cursor { animation: blink 1s steps(1, end) infinite; }
+    @keyframes type  { from { width: 0; } to { width: 740px; } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  </style>
+
+  <defs>
+    <clipPath id="c1"><rect class="type" style="--d:1.0s;--t:0.5s" x="30" y="66"  width="0" height="26"/></clipPath>
+    <clipPath id="c2"><rect class="type" style="--d:0.6s;--t:1.7s" x="30" y="92"  width="0" height="26"/></clipPath>
+    <clipPath id="c3"><rect class="type" style="--d:1.0s;--t:2.6s" x="30" y="132" width="0" height="26"/></clipPath>
+    <clipPath id="c4"><rect class="type" style="--d:0.6s;--t:3.7s" x="30" y="158" width="0" height="26"/></clipPath>
+    <clipPath id="c5"><rect class="type" style="--d:0.6s;--t:4.3s" x="30" y="180" width="0" height="26"/></clipPath>
+    <clipPath id="c6"><rect class="type" style="--d:0.6s;--t:4.9s" x="30" y="202" width="0" height="26"/></clipPath>
+    <clipPath id="c7"><rect class="type" style="--d:1.0s;--t:5.8s" x="30" y="242" width="0" height="26"/></clipPath>
+    <clipPath id="c8"><rect class="type" style="--d:0.8s;--t:6.9s" x="30" y="268" width="0" height="26"/></clipPath>
+    <clipPath id="c9"><rect class="type" style="--d:0.5s;--t:7.9s" x="30" y="308" width="0" height="26"/></clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="0" y="0" width="800" height="380" rx="12" fill="#1a1b26"/>
+  <path d="M0 12 a12 12 0 0 1 12 -12 h776 a12 12 0 0 1 12 12 v28 h-800 z" fill="#16161e"/>
+  <circle cx="26" cy="20" r="6.5" fill="#f7768e"/>
+  <circle cx="48" cy="20" r="6.5" fill="#e0af68"/>
+  <circle cx="70" cy="20" r="6.5" fill="#9ece6a"/>
+  <text x="400" y="25" text-anchor="middle" class="dim" style="font-size:13px">yourname — zsh — 80×24</text>
+
+  <!-- 1 -->
+  <g clip-path="url(#c1)">
+    <text x="30" y="85"><tspan class="prompt">yourname@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ whoami</tspan></text>
+  </g>
+  <g clip-path="url(#c2)">
+    <text x="30" y="111" class="out">Your Name  ·  student, builder, tinkerer</text>
+  </g>
+
+  <!-- 2 -->
+  <g clip-path="url(#c3)">
+    <text x="30" y="151"><tspan class="prompt">yourname@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ cat now.txt</tspan></text>
+  </g>
+  <g clip-path="url(#c4)">
+    <text x="30" y="177"><tspan class="key">learning </tspan><tspan class="dim">→ </tspan><tspan class="val">Your, Current, Skills</tspan></text>
+  </g>
+  <g clip-path="url(#c5)">
+    <text x="30" y="199"><tspan class="key">building </tspan><tspan class="dim">→ </tspan><tspan class="val">what you are working on</tspan></text>
+  </g>
+  <g clip-path="url(#c6)">
+    <text x="30" y="221"><tspan class="key">based in </tspan><tspan class="dim">→ </tspan><tspan class="val">City, Country</tspan></text>
+  </g>
+
+  <!-- 3 -->
+  <g clip-path="url(#c7)">
+    <text x="30" y="261"><tspan class="prompt">yourname@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ ls projects/</tspan></text>
+  </g>
+  <g clip-path="url(#c8)">
+    <text x="30" y="287" class="path">project-one/   project-two/   project-three/</text>
+  </g>
+
+  <!-- 4 -->
+  <g clip-path="url(#c9)">
+    <text x="30" y="327"><tspan class="prompt">yourname@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ </tspan><tspan class="cursor cmd">█</tspan></text>
+  </g>
+</svg>
