@@ -16,7 +16,7 @@
 ## Tech Stack
 
 <!-- Edit the list: https://skillicons.dev (comma-separated ids) -->
-[![Tech](https://skillicons.dev/icons?i=c,cpp,git,linux,bash)](https://skillicons.dev)
+[![Tech](https://skillicons.dev/icons?i=c,cpp,kicad,fusion360,git,linux,bash)](https://skillicons.dev)
 
 ## Connect with me
 
