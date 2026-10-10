@@ -32,40 +32,40 @@
   <circle cx="26" cy="20" r="6.5" fill="#f7768e"/>
   <circle cx="48" cy="20" r="6.5" fill="#e0af68"/>
   <circle cx="70" cy="20" r="6.5" fill="#9ece6a"/>
-  <text x="400" y="25" text-anchor="middle" class="dim" style="font-size:13px">yourname — zsh — 80×24</text>
+  <text x="400" y="25" text-anchor="middle" class="dim" style="font-size:13px">yatharthvishwa — zsh — 80×24</text>
 
   <!-- 1 -->
   <g clip-path="url(#c1)">
-    <text x="30" y="85"><tspan class="prompt">yourname@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ whoami</tspan></text>
+    <text x="30" y="85"><tspan class="prompt">yatharthvishwa@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ whoami</tspan></text>
   </g>
   <g clip-path="url(#c2)">
-    <text x="30" y="111" class="out">Your Name  ·  student, builder, tinkerer</text>
+    <text x="30" y="111" class="out">yatharthvishwa  ·  student,tinkerer</text>
   </g>
 
   <!-- 2 -->
   <g clip-path="url(#c3)">
-    <text x="30" y="151"><tspan class="prompt">yourname@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ cat now.txt</tspan></text>
+    <text x="30" y="151"><tspan class="prompt">yatharthvishwa@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ cat now.txt</tspan></text>
   </g>
   <g clip-path="url(#c4)">
-    <text x="30" y="177"><tspan class="key">learning </tspan><tspan class="dim">→ </tspan><tspan class="val">Your, Current, Skills</tspan></text>
+    <text x="30" y="177"><tspan class="key">learning </tspan><tspan class="dim">→ </tspan><tspan class="val">embedded systems</tspan></text>
   </g>
   <g clip-path="url(#c5)">
-    <text x="30" y="199"><tspan class="key">building </tspan><tspan class="dim">→ </tspan><tspan class="val">what you are working on</tspan></text>
+    <text x="30" y="199"><tspan class="key">building </tspan><tspan class="dim">→ </tspan><tspan class="val">stuff that i find cool</tspan></text>
   </g>
   <g clip-path="url(#c6)">
-    <text x="30" y="221"><tspan class="key">based in </tspan><tspan class="dim">→ </tspan><tspan class="val">City, Country</tspan></text>
+    <text x="30" y="221"><tspan class="key">based in </tspan><tspan class="dim">→ </tspan><tspan class="val">india</tspan></text>
   </g>
 
   <!-- 3 -->
   <g clip-path="url(#c7)">
-    <text x="30" y="261"><tspan class="prompt">yourname@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ ls projects/</tspan></text>
+    <text x="30" y="261"><tspan class="prompt">yatharthvishwa@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ ls projects/</tspan></text>
   </g>
   <g clip-path="url(#c8)">
-    <text x="30" y="287" class="path">project-one/   project-two/   project-three/</text>
+    <text x="30" y="287" class="path">pongOS/</text>
   </g>
 
   <!-- 4 -->
   <g clip-path="url(#c9)">
-    <text x="30" y="327"><tspan class="prompt">yourname@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ </tspan><tspan class="cursor cmd">█</tspan></text>
+    <text x="30" y="327"><tspan class="prompt">yatharthvishwa@github</tspan><tspan class="cmd">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ </tspan><tspan class="cursor cmd">█</tspan></text>
   </g>
 </svg>
